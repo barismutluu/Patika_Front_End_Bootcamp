@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow p-2">
+      <div
+        class="container mx-auto px-4 h-16 flex justify-between items-center"
+      >
+        <div class="flex space-x-6">
+          <a href="./index.html">link</a>
+          <a href="./index.html">link</a>
+          <a href="./index.html">link</a>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="/pikacu.png" style="width: 48px; height: 48px" />
+        </div>
+        <div class="flex items-center space-x-2">
+          <div
+            class="flex items-center border border-gray-300 py-1 px-1 w-48 bg-white rounded-md shadow"
+          >
+            <svg
+              class="w-4 h-4 text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1117.5 3.75 7.5 7.5 0 0116.65 16.65z"
+              />
+            </svg>
+            <input
+              class="appearance-none bg-transparent border-none w-full text-gray-700 ml-2 leading-tight focus:outline-none"
+              type="text"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </div>
+          <button
+            class="bg-purple-600 px-3 py-1 rounded-xl text-white"
+            href="./index.html"
+          >
+            Log in
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div
+      class="bg-slate-500 text-center w-full h-64 flex items-center justify-center"
+    >
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-black mb-4">
+          Quisquam necessita <br />
+          vel <span class="text-purple-500">laborum doloribus</span> delectus
+        </h1>
+        <p class="text-gray-700 mb-4">
+          Cupiditate minima voluptate temporibus quia? <br />
+          Architecto beatae esse ab amet vero eaque explicabo!
+        </p>
+        <div class="flex justify-center space-x-4">
+          <button class="bg-purple-600 text-white py-2 px-4 rounded">
+            Get started
+          </button>
+          <button
+            class="bg-transparent text-gray-700 py-2 px-4 border border-gray-700 rounded"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="bg-gray-100 py-12">
+      <h2 class="text-center text-3xl font-semibold mb-8">
+        What our customers are saying about us
+      </h2>
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+        <!-- Card 1 -->
+        <div
+          class="bg-white rounded-lg shadow p-6 flex flex-col justify-between"
+        >
+          <div>
+            <p class="text-gray-700 mb-4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus quibusdam, eligendi exercitationem molestias possimus
+              facere.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="w-10 h-10 rounded-full bg-gray-300 flex-shrink-0 flex items-center justify-center"
+            >
+              <svg
+                class="w-4 h-4 text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 0H9v2h2V0zm-5.657.929L4.344 2.586 5.757 4 7.414 2.586 5.657.93zM3.93 4.343L2.586 5.657l2.343 2.343L6.343 6.686 3.93 4.343zM7.414 12H5.414v-2H7.414v2zm4.243 0h-2v-2h2v2zm1.657-2H13v2h2V10zm4.243-4.243l-2.343 2.343 1.414 1.414 2.343-2.343L17.657 5.757zM10 4.414L5.414 9H3v2h2V9.586L10 5.414V7h2V3h-2v1.414zm4 8.586h-2v2h2v-2zm1.657.93l-2.343-2.343-1.414 1.414 2.343 2.343 1.414-1.414zM10 15h-2v2h2v-2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <p class="text-purple-600 font-bold">Distinctio Animi</p>
+              <p class="text-gray-500">ALIQUAM ILLUM</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="bg-white rounded-lg shadow p-6 flex flex-col justify-between"
+        >
+          <div>
+            <p class="text-gray-700 mb-4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus quibusdam, eligendi exercitationem molestias possimus
+              facere.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="w-10 h-10 rounded-full bg-gray-300 flex-shrink-0 flex items-center justify-center"
+            >
+              <svg
+                class="w-4 h-4 text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 0H9v2h2V0zm-5.657.929L4.344 2.586 5.757 4 7.414 2.586 5.657.93zM3.93 4.343L2.586 5.657l2.343 2.343L6.343 6.686 3.93 4.343zM7.414 12H5.414v-2H7.414v2zm4.243 0h-2v-2h2v2zm1.657-2H13v2h2V10zm4.243-4.243l-2.343 2.343 1.414 1.414 2.343-2.343L17.657 5.757zM10 4.414L5.414 9H3v2h2V9.586L10 5.414V7h2V3h-2v1.414zm4 8.586h-2v2h2v-2zm1.657.93l-2.343-2.343-1.414 1.414 2.343 2.343 1.414-1.414zM10 15h-2v2h2v-2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <p class="text-purple-600 font-bold">Distinctio Animi</p>
+              <p class="text-gray-500">ALIQUAM ILLUM</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="bg-white rounded-lg shadow p-6 flex flex-col justify-between"
+        >
+          <div>
+            <p class="text-gray-700 mb-4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus quibusdam, eligendi exercitationem molestias possimus
+              facere.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="w-10 h-10 rounded-full bg-gray-300 flex-shrink-0 flex items-center justify-center"
+            >
+              <svg
+                class="w-4 h-4 text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 0H9v2h2V0zm-5.657.929L4.344 2.586 5.757 4 7.414 2.586 5.657.93zM3.93 4.343L2.586 5.657l2.343 2.343L6.343 6.686 3.93 4.343zM7.414 12H5.414v-2H7.414v2zm4.243 0h-2v-2h2v2zm1.657-2H13v2h2V10zm4.243-4.243l-2.343 2.343 1.414 1.414 2.343-2.343L17.657 5.757zM10 4.414L5.414 9H3v2h2V9.586L10 5.414V7h2V3h-2v1.414zm4 8.586h-2v2h2v-2zm1.657.93l-2.343-2.343-1.414 1.414 2.343 2.343 1.414-1.414zM10 15h-2v2h2v-2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <p class="text-purple-600 font-bold">Distinctio Animi</p>
+              <p class="text-gray-500">ALIQUAM ILLUM</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div
+          class="bg-white rounded-lg shadow p-6 flex flex-col justify-between"
+        >
+          <div>
+            <p class="text-gray-700 mb-4">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus quibusdam, eligendi exercitationem molestias possimus
+              facere.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div
+              class="w-10 h-10 rounded-full bg-gray-300 flex-shrink-0 flex items-center justify-center"
+            >
+              <svg
+                class="w-4 h-4 text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 0H9v2h2V0zm-5.657.929L4.344 2.586 5.757 4 7.414 2.586 5.657.93zM3.93 4.343L2.586 5.657l2.343 2.343L6.343 6.686 3.93 4.343zM7.414 12H5.414v-2H7.414v2zm4.243 0h-2v-2h2v2zm1.657-2H13v2h2V10zm4.243-4.243l-2.343 2.343 1.414 1.414 2.343-2.343L17.657 5.757zM10 4.414L5.414 9H3v2h2V9.586L10 5.414V7h2V3h-2v1.414zm4 8.586h-2v2h2v-2zm1.657.93l-2.343-2.343-1.414 1.414 2.343 2.343 1.414-1.414zM10 15h-2v2h2v-2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <p class="text-purple-600 font-bold">Distinctio Animi</p>
+              <p class="text-gray-500">ALIQUAM ILLUM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-200 py-12">
+      <div class="container mx-auto">
+        <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+          <h2 class="text-2xl font-bold mb-6">Contact us</h2>
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="name">Name</label>
+              <input
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-500"
+                type="text"
+                id="name"
+                placeholder="Your name"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="email">Email</label>
+              <input
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-500"
+                type="email"
+                id="email"
+                placeholder="Your email"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 mb-2" for="message"
+                >Message</label
+              >
+              <textarea
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-purple-500"
+                id="message"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+            <button
+              class="w-full bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 focus:outline-none focus:bg-purple-700"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <div class="text-white space-x-6">
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-purple-500">
+              <svg
+                class="w-6 h-6 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.95 3.6 9.03 8.31 9.93.61.11.83-.26.83-.58 0-.28-.01-1.02-.01-2-3.37.74-4.09-1.56-4.09-1.56-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.72.08-.72 1.2.08 1.83 1.23 1.83 1.23 1.08 1.85 2.83 1.32 3.52 1.01.11-.78.42-1.32.76-1.62-2.69-.31-5.52-1.34-5.52-5.96 0-1.32.47-2.41 1.24-3.26-.12-.31-.54-1.55.11-3.24 0 0 1.01-.32 3.3 1.24.96-.27 1.99-.4 3.02-.41 1.03.01 2.05.14 3.02.41 2.29-1.56 3.3-1.24 3.3-1.24.65 1.69.23 2.93.11 3.24.77.85 1.24 1.94 1.24 3.26 0 4.64-2.83 5.65-5.52 5.96.43.37.81 1.1.81 2.22 0 1.61-.01 2.91-.01 3.31 0 .32.22.69.83.57 4.71-.91 8.3-4.98 8.3-9.93 0-5.5-4.46-9.96-9.96-9.96z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="text-purple-500">
+              <svg
+                class="w-6 h-6 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 4.56c-.89.39-1.84.66-2.84.78 1.02-.61 1.8-1.57 2.16-2.72-.95.57-2 .98-3.12 1.2-.9-.95-2.18-1.54-3.6-1.54-2.73 0-4.94 2.21-4.94 4.94 0 .39.04.76.13 1.12-4.1-.21-7.73-2.17-10.15-5.15-.43.75-.68 1.63-.68 2.57 0 1.77.9 3.33 2.27 4.24-.84-.03-1.63-.26-2.32-.64v.06c0 2.47 1.76 4.53 4.1 5-.43.12-.87.18-1.33.18-.32 0-.64-.03-.95-.08.64 2 2.49 3.46 4.68 3.5-1.72 1.35-3.88 2.15-6.23 2.15-.4 0-.8-.02-1.19-.07 2.22 1.43 4.85 2.27 7.68 2.27 9.22 0 14.26-7.64 14.26-14.26 0-.22 0-.43-.01-.64.98-.7 1.83-1.56 2.5-2.55z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="text-purple-500">
+              <svg
+                class="w-6 h-6 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2.163c-5.473 0-9.837 4.364-9.837 9.837 0 4.887 3.513 8.946 8.09 9.755.591.108.803-.256.803-.572 0-.285-.01-1.039-.015-2.04-3.291.717-3.984-1.586-3.984-1.586-.538-1.372-1.315-1.738-1.315-1.738-1.076-.736.082-.721.082-.721 1.188.084 1.814 1.222 1.814 1.222 1.06 1.818 2.782 1.293 3.461.99.108-.768.415-1.294.756-1.591-2.629-.299-5.39-1.315-5.39-5.853 0-1.293.463-2.352 1.222-3.18-.123-.298-.53-1.495.116-3.117 0 0 .997-.319 3.268 1.212.948-.264 1.964-.396 2.973-.4 1.009.004 2.025.136 2.973.4 2.27-1.531 3.267-1.212 3.267-1.212.647 1.622.24 2.82.118 3.117.761.828 1.222 1.887 1.222 3.18 0 4.55-2.764 5.552-5.401 5.845.426.368.81 1.096.81 2.21 0 1.595-.014 2.88-.014 3.273 0 .319.21.684.813.568 4.572-.811 8.088-4.869 8.088-9.755 0-5.473-4.365-9.837-9.838-9.837z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
