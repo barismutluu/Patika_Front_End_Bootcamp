@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .players {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .player {
+    margin: 0 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .dice-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  h1, h3 {
+    margin: 10px 0;
+  }
+  
