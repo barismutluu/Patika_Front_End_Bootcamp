@@ -1,0 +1,40 @@
+/* CARD CSS */
+.card {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}
+  
+.card h1 {
+    margin-top: 3vh;
+}
+  
+.cardCalc{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 3vh 0;
+}
+  
+.cardProduct,
+.cardTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: start;
+    gap: 5%;
+}
+
+.cardProduct span {
+    width: 30%;
+}
+
+  
+.cardPrice {
+    color: #42bc9a;
+}

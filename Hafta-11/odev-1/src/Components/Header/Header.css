@@ -1,0 +1,24 @@
+/* HEADER CSS */
+.header {
+    width: 100%;
+    background-color: white;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 2vh;
+}
+  
+.imgClass {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 2vh;
+}
+  
+.h1Header {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 2vh;
+}

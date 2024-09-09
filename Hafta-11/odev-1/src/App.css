@@ -1,0 +1,45 @@
+/* GENERAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 70%;
+}
+
+/* TOTELMONEY CSS */
+.total {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  height: 8vh;
+  margin-bottom: 2vh;
+  z-index: 1000; /* Üstte görünmesini sağlamak için z-index ekleyebilirsiniz */
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(#4ecc6d, #42bc9a);
+  width: 100%;
+  height: 8vh;
+}
+
+.h1TotalMoney {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}

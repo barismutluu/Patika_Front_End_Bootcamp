@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  color: #aeaeae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  
+  
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: left;
+
+  
+}
+
+.note-input {
+  position: relative;
+}
+
+.note-input textarea {
+  width: 100%;
+  height: 200px; /* Sabit yükseklik */
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none; /* Kullanıcının boyutu değiştirmesini engeller */
+  box-sizing: border-box; /* İç boşluk ve sınırları dahil eder */
+}
+.input-container {
+  display: flex;
+  justify-content: center; /* Yatayda ortalar */
+  margin-bottom: 5px; /* Alt boşluk */
+}
+.color-options {
+  position: absolute;
+  bottom: 15px; /* Text alanının içinde, alta sabitlenmiş */
+  left: 10px; /* Sol kenara hizalanmış */
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Daireleri dikeyde ortalar */
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.color-circle.selected {
+  border-color: black;
+}
+
+button {
+  position: absolute;
+  bottom: 10px; /* Text alanının içinde, alta sabitlenmiş */
+  right: 10px; /* Sağ kenara hizalanmış */
+  width: 80px; /* Küçültülmüş buton genişliği */
+  padding: 8px; /* Küçültülmüş buton iç boşluğu */
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px; /* Küçültülmüş buton yazı boyutu */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.note-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.note {
+  position: relative; /* İçerideki elemanların konumlandırılabilmesi için */
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.delete-button:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,103 @@
+/* PRODUCT CSS */
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5%;
+}
+
+.product {
+    background-color: white;
+    width: 33%;
+    /* height: 33%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+  
+.imgProduct {
+    height: 140px;
+    object-fit: cover;
+    margin: 4vh auto 1vh auto;
+}
+  
+.product p {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.product .priceP {
+    color: #42bc9a;
+}
+  
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+}
+  
+.sellBtn {
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 30%;
+    height: 5vh;
+    background-color: #f1f2f6;
+    color: black;
+    border: 1px solid #f1f2f6;
+  }
+
+  /* active sell button */
+.activeSell {
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 30%;
+    height: 5vh;
+    background: linear-gradient(180deg, #f53b82, #f53b57);
+    border: 1px solid tomato;
+    color: white;
+    cursor: pointer;
+} 
+  
+.buyBtn {
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 30%;
+    height: 5vh;
+    background: linear-gradient(180deg, #2ecc71, #1abc9c);
+    color: white;
+    border: 1px solid #42bc9a;
+    cursor: pointer;
+}
+
+/* inactive buy button */
+.inactiveBuy {
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 30%;
+    height: 5vh;
+    background-color: #f1f2f6;
+    color: black;
+    border: 1px solid #f1f2f6;
+}
+  
+.inputBtn {
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 30%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    text-align: center;
+}
