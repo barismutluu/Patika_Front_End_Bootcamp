@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #survey-form {
+            background-color: #1e2a38;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #27ae60;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #219150;
+        }
+
+        .checkbox-group,
+        .radio-group {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="survey-form">
+        <h1 id="title">Survey Form For CSS Practice</h1>
+        <p id="description">Lütfen anketi doldurun ve bilgilerinizi gönderin.</p>
+
+        <label id="name-label" for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Enter your full name" required>
+
+        <label id="email-label" for="email">Mail</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" placeholder="Enter your age" min="18" max="99" required>
+
+        <label for="dropdown">Select Gender</label>
+        <select id="dropdown" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <p>Where did you hear about us?</p>
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="source" value="instagram" required> Instagram
+            </label>
+            <label>
+                <input type="radio" name="source" value="linkedin" required> LinkedIn
+            </label>
+        </div>
+
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="terms" value="agree" required> Terms Of Service
+            </label>
+            <label>
+                <input type="checkbox" name="subscribe" value="news"> Subscribe For News
+            </label>
+        </div>
+
+        <label for="suggestions">Suggestions</label>
+        <textarea id="suggestions" placeholder="Suggestions"></textarea>
+
+        <input id="submit" type="submit" value="Sign Up">
+    </form>
+
+</body>
+
+</html>
